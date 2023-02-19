@@ -39,10 +39,10 @@ jobs:
         run: |
           haxelib --quiet install lime 7.9.0
           haxelib --quiet install openfl 9.1.0
-          haxelib --quiet install flixel
+          haxelib --quiet install flixel 4.11.0
           haxelib --quiet --never run lime setup
-          haxelib --quiet install flixel-ui
-          haxelib --quiet install flixel-addons
+          haxelib --quiet install flixel-ui 2.4.0
+          haxelib --quiet install flixel-addons 2.11.0
           haxelib --quiet install polymod
           haxelib --quiet install hscript
           haxelib --quiet install hxcpp-debug-server
@@ -83,10 +83,10 @@ jobs:
         run: |
           haxelib --quiet install lime 7.9.0
           haxelib --quiet install openfl 9.1.0
-          haxelib --quiet install flixel
+          haxelib --quiet install flixel 4.11.0
           haxelib --quiet --never run lime setup
-          haxelib --quiet install flixel-ui
-          haxelib --quiet install flixel-addons
+          haxelib --quiet install flixel-ui 2.4.0
+          haxelib --quiet install flixel-addons 2.11.0
           haxelib --quiet install polymod
           haxelib --quiet install hscript
           haxelib --quiet install hxcpp-debug-server
